@@ -207,7 +207,7 @@ navigator.mediaDevices.getUserMedia(constraints)
     // 6. Gambar Logo (Secara Async agar tidak menghambat penyimpanan)
     let logo = new Image();
     logo.crossOrigin = "anonymous";
-    logo.src = "images/logo2.png";
+    logo.src = "./images/logo2.png";
 
     logo.onload = function() {
         let logoSize = bannerHeight * 0.8;
